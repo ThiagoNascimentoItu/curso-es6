@@ -8,5 +8,8 @@
   "dependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/preset-env": "^7.6.3"
+  },
+  "scripts": {
+    "dev":"babel ./main.js -o ./bundle.js -w"
   }
 }
